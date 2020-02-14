@@ -11,17 +11,17 @@
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 	
     <!-- ================== BEGIN BASE CSS STYLE ================== -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
-    <link href="./css/jquery-ui.min.css" rel="stylesheet" />
-    <link href="./css/bootstrap.min.css" rel="stylesheet" />
-    <link href="./css/all.min.css" rel="stylesheet" />
-    <link href="./css/animate.min.css" rel="stylesheet" />
-    <link href="./css/style.min.css" rel="stylesheet" />
-     <link href="./css/style.min.min.css" rel="stylesheet" />
-    <link href="./css/style-responsive.min.css" rel="stylesheet" />
-    <link href="./css/font-awesome.min.css" rel="stylesheet" />
-    <link href="./css/jquery.gritter.css" rel="stylesheet" />
-    <link href="./css/defaults.css" rel="stylesheet" id="theme" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+<link href="./css/jquery-ui.min.css" rel="stylesheet" />
+<link href="./css/bootstrap.min.css" rel="stylesheet" />
+<link href="./css/all.min.css" rel="stylesheet" />
+<link href="./css/animate.min.css" rel="stylesheet" />
+<link href="./css/style.min.css" rel="stylesheet" />
+<link href="./css/style.min.min.css" rel="stylesheet" />
+<link href="./css/style-responsive.min.css" rel="stylesheet" />
+<link href="./css/font-awesome.min.css" rel="stylesheet" />
+<link href="./css/jquery.gritter.css" rel="stylesheet" />
+<link href="./css/defaults.css" rel="stylesheet" id="theme" />
 
  
     <!-- ================== END BASE CSS STYLE ================== --> 
@@ -33,7 +33,7 @@
 
 <style type="text/css">
     .test{
-background: url('../images/bg1.jpg') no-repeat  center center fixed;
+background: url('./images/bg1.jpg') no-repeat  center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -121,7 +121,7 @@ background-size: cover;
                             <li class="has-sub active"><a href="trade.html">Trade</a></li>
 
                           <li class="has-sub expand ">
-                                <a href="#">
+                                <a href="sale.html">
                                                                      Sale
                                 </a>
                                 
@@ -202,16 +202,28 @@ background-size: cover;
                 </div>
                 <div class="panel-body">
                     <div class="form-group">
-                      <label>Give Currency (USD)</label>
-                      <input type="" name="" class="form-control" value="">
+                      <label>Select Currency</label>
+                      <select class="form-control">
+                          <option value="ADA">ADA</option>
+                          <option value="BTC">BTC</option>
+                          <option value="ETH">ETH</option>
+                      </select>
                     </div>
 
-                     <div class="form-group">
-                      <label>Get Currency (USD)</label>
-                      <input type="" name="" class="form-control" value="">
+
+                    <div class="form-group">
+                        <label>Trade to</label>
+                     <select class="form-control">
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                      </select>
                     </div>
 
-
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-danger">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
                 </div>
             </div>
         </div>

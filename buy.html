@@ -6,22 +6,22 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>MMC Transaction
+	<title>MMC 
      </title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 	
     <!-- ================== BEGIN BASE CSS STYLE ================== -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
-    <link href="./css/jquery-ui.min.css" rel="stylesheet" />
-    <link href="./css/bootstrap.min.css" rel="stylesheet" />
-    <link href="./css/all.min.css" rel="stylesheet" />
-    <link href="./css/animate.min.css" rel="stylesheet" />
-    <link href="./css/style.min.css" rel="stylesheet" />
-     <link href="./css/style.min.min.css" rel="stylesheet" />
-    <link href="./css/style-responsive.min.css" rel="stylesheet" />
-    <link href="./css/font-awesome.min.css" rel="stylesheet" />
-    <link href="./css/jquery.gritter.css" rel="stylesheet" />
-    <link href="./css/defaults.css" rel="stylesheet" id="theme" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+<link href="./css/jquery-ui.min.css" rel="stylesheet" />
+<link href="./css/bootstrap.min.css" rel="stylesheet" />
+<link href="./css/all.min.css" rel="stylesheet" />
+<link href="./css/animate.min.css" rel="stylesheet" />
+<link href="./css/style.min.css" rel="stylesheet" />
+<link href="./css/style.min.min.css" rel="stylesheet" />
+<link href="./css/style-responsive.min.css" rel="stylesheet" />
+<link href="./css/font-awesome.min.css" rel="stylesheet" />
+<link href="./css/jquery.gritter.css" rel="stylesheet" />
+<link href="./css/defaults.css" rel="stylesheet" id="theme" />
 
  
     <!-- ================== END BASE CSS STYLE ================== --> 
@@ -87,7 +87,7 @@ background-size: cover;
                         <a href="javascript:;" data-toggle="nav-profile">
                             <div class="cover with-shadow"></div>
                             <div class="image">
-                             <img src="./images/user.png") }}" alt="" /> 
+                             <img src="./images/user.png" alt="" /> 
 
                             </div>
                             <div class="info">
@@ -110,7 +110,7 @@ background-size: cover;
                             <span>Dashboard</span>
                         </a>
                        
-         <li class="has-sub " style="border-bottom: 1px solid #46505a;
+         <li class="has-sub active " style="border-bottom: 1px solid #46505a;
     border-top: 1px solid #46505a;">
                         <a href="javascript:;">
                               <b class="caret"></b>
@@ -120,14 +120,14 @@ background-size: cover;
                         <ul class="sub-menu">
                             <li class="has-sub "><a href="trade.html">Trade</a></li>
 
-                          <li class="has-sub expand ">
-                                <a href="statistics-ext.html">
+                          <li class="has-sub expand  ">
+                                <a href="sale.html">
                                                                      Sale
                                 </a>
                                 
 
-                              <li class="has-sub expand ">
-                                <a href="javascript:;">
+                              <li class="has-sub expand active ">
+                                <a href="buy.html">
                                     
                                  Buy
                                 </a>
@@ -135,7 +135,7 @@ background-size: cover;
                        </li>
 
 
-                    <li class="has-sub active" style="border-bottom: 1px solid #46505a;
+                    <li class="has-sub " style="border-bottom: 1px solid #46505a;
     border-top: 1px solid #46505a;">
                          <a href="history.html">
                             
@@ -154,7 +154,7 @@ background-size: cover;
                             <span>Game</span>
                         </a>
                         <ul class="sub-menu">
-                            <li class="has-sub "><a href="transactions.html">Bacarat</a></li>
+                            <li class="has-sub "><a href="#">Bacarat</a></li>
                             
                         </ul>
                     </li>
@@ -183,7 +183,7 @@ background-size: cover;
             
             <!-- end breadcrumb -->
             <!-- begin page-header -->
-             <h1 class="page-header">Trasaction <small> </small></h1>
+             <h1 class="page-header">Buy <small> </small></h1>
             <!-- end breadcrumb -->
                <div class="row">
                 <div class="col-md-13">
@@ -198,45 +198,24 @@ background-size: cover;
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                         <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                     </div>
-                    <h4 class="panel-title">Transaction</h4>
+                    <h4 class="panel-title">Buy</h4>
                 </div>
                 <div class="panel-body">
-
-                     <div class="col-md-6">
-                         <div class="form-group">
-                             <label> <br></label>
-                              <select class="form-control">
-                                  <option>ADA </option>
-                                   <option>BTC </option>
-                                    <option>ETH </option>
-                                     <option>LTC </option>
-                                      <option>XRP </option>
-                                       <option>USDP </option>
-
-                              </select>
-                        </div>
+                    <div class="form-group">
+                      <label>Get Currency</label>
+                       <input type="text" name="" class="form-control">
                     </div>
 
-                    <table class="table table-bordered table-hover">
-                        <thead>
-                           <tr>
-                               <th>Date</th>
-                               <th>Details</th>
-                               <th>Amount</th>
-                               <th>Address (To)</th>
-                               <th>Address (From)</th>
-                               <th>Status</th>
-                                <th>TXID</th>
 
-                           </tr>
-                       </thead>
-                       <tbody>
-                           <tr>
-                               <td colspan="8"></td>
-                           </tr>
-                       </tbody>
-                   </table>
+                    <div class="form-group">
+                        <label>Give Currency</label>
+                        <input type="text" name="" class="form-control">
+                    </div>
 
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-danger">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
                 </div>
             </div>
         </div>
