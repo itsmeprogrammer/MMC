@@ -98,7 +98,7 @@ h6 small {
 }
 
 a {
-	color: #007bff;
+	color: #633914;
 	transition: color .1s ease-in-out
 }
 
@@ -116,7 +116,7 @@ strong {
 }
 
 label {
-	color: #242a30;
+	color: #633914;
 	font-weight: 600
 }
 
@@ -703,7 +703,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 
 .sidebar,
 .sidebar-bg {
-	background: #2d353c;
+	background:#9c4c9280;
 	width: 220px;
 	left: 0;
 	top: 0;
@@ -734,7 +734,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 .sidebar .nav>li>a {
 	padding: 7px 20px;
 	line-height: 20px;
-	color: #a8acb1;
+	color: #f8f9fa;
 	display: block;
 	text-decoration: none
 }
@@ -801,7 +801,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 .sidebar .nav>li.active>a:focus,
 .sidebar .nav>li.active>a:hover {
 	color: #fff;
-	background: #e4276e
+	background: #c784a5
 }
 
 .sidebar .nav>li.active>a i {
@@ -817,8 +817,8 @@ table.dataTable thead .sorting_desc_disabled:after {
 	margin: 0;
 	padding: 15px 20px 3px;
 	line-height: 20px;
-	font-size: 11px;
-	color: #889097;
+	font-size: 12px;
+	color: #efebf2;
 	font-weight: 600
 }
 
@@ -842,7 +842,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 .sidebar .nav>li.nav-profile {
 	padding: 20px;
 	color: #fff;
-	background: #1a2229;
+	background: #f8f9fa00;
 	overflow: hidden
 }
 
@@ -914,7 +914,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 	top: 0;
 	bottom: 0;
 	transition: all .2s linear;
-	background: rgba(26, 34, 41, .75)
+	background: #cbb4c36b
 }
 
 .sidebar .nav>li.nav-profile a:focus .cover.with-shadow:before,
@@ -2715,12 +2715,12 @@ a.card-header-link {
 }
 
 .alert.alert-primary {
-	background: #c2ddf7;
-	color: #1a4772
+	background:#d5cdc0;
+	color: #633914;
 }
 
 .alert.alert-dark {
-	background: #c0c2c4;
+	background: #d5cdc0;
 	color: #5b6165
 }
 
@@ -3690,8 +3690,8 @@ a.card-header-link {
 .btn.btn-primary[disabled]:focus,
 .btn.btn-primary[disabled]:hover {
 	color: #fff;
-	background: #348fe2;
-	border-color: #348fe2
+	background: #9F0303;
+	border-color:#eebb16;
 }
 
 .btn-primary.active,
@@ -3816,8 +3816,8 @@ a.card-header-link {
 .btn.btn-danger[disabled]:focus,
 .btn.btn-danger[disabled]:hover {
 	color: #fff;
-	background: #ff5b57;
-	border-color: #ff5b57
+	background: #eebb16;
+	border-color: #eebb16;
 }
 
 .btn-danger.active,
@@ -4197,7 +4197,8 @@ a.card-header-link {
 
 .panel {
 	margin-bottom: 20px;
-	background-color: #fff;
+	background-color: #b38e63de;
+
 	border: none;
 	box-shadow: none;
 	border-radius: 3px
@@ -4233,6 +4234,10 @@ a.card-header-link {
 	border: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px
+	border: 1px solid black;
+  outline-style: solid;
+  outline-color: #eebb16;
+}
 }
 
 .panel-heading+.slimScrollDiv,
@@ -4413,7 +4418,10 @@ a.card-header-link {
 }
 
 .panel-success>.panel-heading {
-	background: #e2276e
+	background: #9f0306
+	
+}
+
 }
 
 .panel-warning>.panel-heading {
@@ -8754,8 +8762,8 @@ body .bootstrap-datetimepicker-widget .timepicker-picker table td:first-child {
 .widget-stats .stats-info h4 {
 	font-size: 12px;
 	margin: 5px 0;
-	color: #fff;
-	color: rgba(255, 255, 255, .7)
+	color:  #633914;
+	
 }
 
 .widget-stats .stats-icon {
@@ -14972,7 +14980,7 @@ a.text-green:hover {
 
 .bg-black,
 .bg-inverse {
-	background-color: #ee135de0!important
+	background-color: #c1a688f2!important
 }
 
 .bg-black-transparent-9 {

@@ -94,6 +94,7 @@ h6 {
 }
 
 p {
+	color:  #633914;
 	margin-top: 0;
 	margin-bottom: 1rem
 }
@@ -1979,8 +1980,8 @@ pre code {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
-	color: #495057;
-	background-color: #fff;
+	color: #633914;
+	background-color: #d5cdc0;
 	background-clip: padding-box;
 	border: 1px solid #ced4da;
 	border-radius: .25rem;

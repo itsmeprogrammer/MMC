@@ -211,8 +211,9 @@ figure {
 }
 
 img {
-	vertical-align: middle;
-	border-style: none
+	left: 40%;
+    margin-left: -17px !important;
+    display: block;
 	
 }
 
@@ -2636,8 +2637,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
 	color: #fff;
-	background-color: #9d14c6;
-	border-color: #9d14c6
+	background-color: #472e55;
+	border-color: #472e55;
 }
 
 .btn-success:hover {

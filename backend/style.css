@@ -78,7 +78,7 @@ button {
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background: #dc3545c7;
+	background: #8dcdfe6b;
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, .125);
 	border-radius: 5px;
@@ -109,17 +109,18 @@ button {
 	margin-bottom: 0;
 	color: var(--label-color);
 	font-size: .8rem;
-	font-weight: 600
+	font-weight: 5
+	00
 }
 
 .form-content input {
 	height: 45px;
-	color: var(--input-color);
-	background-color: var(--input-background);
+	color: #000000;
+	background-color: #f8f9fa;
 	border: transparent;
 	border-radius: 5px;
 	margin-top: 5px;
-	padding-left: 2rem;
+	padding-left: 1rem;
 	font-size: .88rem
 }
 
