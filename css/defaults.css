@@ -18,7 +18,7 @@ Website: http://www.seantheme.com/color-admin-v4.3/admin/
 }
 .text-theme,
 .sidebar .nav > li.active > a i {
-	color: #00acac;
+	color:#f8f9fa;
 }
 .sidebar .sub-menu > li.active:after {
 	border-color: #00acac;
